@@ -8,5 +8,7 @@ I made this software a long time ago. It's here because of nostalgic reasons. It
 
 You'll need a mysql database as a storage backend for offline messages and user information.
 
+I haven't tried to compile this under new Java versions. I think I made this with Java 1.2, so you've been warned.. 
+
 See .\doc for license and redistribution terms, install documentantion,
 JConnector license et all.
