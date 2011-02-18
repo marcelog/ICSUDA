@@ -10,9 +10,7 @@
 //
 // Comments, suggestions, bug reports, patches, beer to:
 //
-// 	Marcelo Gornstein - NetLabs, Argentina
-// 	marcelog@netlabs.com.ar
-//		http://www.netlabs.com.ar/ICSUDA
+// 	marcelog@gmail.com
 //
 //
 // 04/2003
@@ -32,7 +30,7 @@
 // All advertising materials mentioning features or use of this software must display
 // the following acknowledgement: 
 //
-// This product includes software developed by NetLabs, Argentina and its contributors. 
+// This product includes software developed by Marcelo Gornstein
 //
 // Neither the name of the author(s) nor the names of its contributors may be used to
 // endorse or promote products derived from this software without specific prior
