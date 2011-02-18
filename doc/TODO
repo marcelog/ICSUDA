@@ -1,0 +1,46 @@
+TODO:
+
+LOW IMPORTANCE:
+	* Make the client applet.
+	* Document a little more.
+	* Make logging to database.
+	* Write support for LDAP, Oracle, PostgreSQL and Mysql with new or native
+		jdbc drivers (non GPL code, more bsd-like style).
+	* Allow client authentication via ssl certificates.
+	* The key should change on the fly every 'n' minutes.
+	* Messages should not be really stored in the server (at least not
+		plaintext). This is really a problem for offline messages, tho...
+	* Every server should have a self-signed certificate, generated at random at
+		install time.
+	* This certificate should change automatically on the fly.
+
+MEDIUM IMPORTANCE:
+	* Optimize general performance, protocol speed. This thing is not even
+		remotely close to support heavy-loads. Should be stable, tho.
+	* Try to atomize more the database operations such as login and logout,
+		what happens under different circumstances like connection resets,
+		database downtime, etc.
+	* Implement file transfer.
+	* Implement contact management (request authorization, add, remove, search).
+	* The encription key should go as high as possible (4096 bits sounds ok).
+	* Round up log stuff so they log to a file or any device, centralize it,etc.
+	* The users password should be saved via password() into the database
+		(crypted or hashed, that is).
+	* Add history.
+
+HIGH IMPORTANCE:
+	* Write the CLI.
+	* Make a real and nice DB wrapper.
+	* Make the system P2P.
+	* Make an ICSUDA-2-ICSUDA protocol so servers can see and interact with each
+		others users.
+	* This is obviously a first approach to a messaging system. The
+		multithreaded environment, directly related to the "backlog" of the
+		server (that is, the maximum number of concurrent connections and
+		online users) limits the server to perhaps dozens or even thousands
+		but not millions of users (I really doubt that thousands means
+		more than exactly *one* thousand). This scheme should be changed
+		for large-scale servers. (Unless java 	or the hardware becomes faster).
+	* Create a configuration file read at run time to configure everything.
+	* Let the user control several security aspects from the config file
+	(like cipher suites, algorithms, key length, passwords, certificates, etc).

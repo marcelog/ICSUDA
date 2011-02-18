@@ -1,0 +1,12 @@
+//
+// ICSUDA: (I) (C)an (S)ee (Y)ou, (D)umbass
+//
+// Secure P2P messaging system.
+//
+
+I made this software a long time ago. It's here because of nostalgic reasons. It works, but dont take it too seriously since it hasn't been tested like it should be :D I've come a long way since this code, but it can still be used to learn some stuff if you're new to the Java world.
+
+You'll need a mysql database as a storage backend for offline messages and user information.
+
+See .\doc for license and redistribution terms, install documentantion,
+JConnector license et all.

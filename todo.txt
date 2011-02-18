@@ -1,0 +1,49 @@
+TODO:
+----
+0.- se pierden mensajes. (Kurt/Wences/Dronkit).
+1.- achicar coso gris. (Wences). Implica reescribir el layout en WindowMessage.
+2.- en el login, apretar enter=ok (Dronkit).
+3.- compartir un directorio por usuario. (Wences, good one).
+4.- chat de > 2 personas. (Dronkit).
+5.- mensajes offline (Dronkit).
+6.- add contact (Dronkit).
+7.- apretar esc en ventana de chat, la cierra (Dronkit).
+8.- apretar esc en ventana de login, cancela (Dronkit).
+9.- chat > 2 personas c/offline (Dronkit).
+A.- que se vea cursor en texto (Wences).
+B.- shift+pg up para subir y shift+pgdn para bajar el incoming (Dronkit).
+C.- reescribir la parte que maneja los contactos del lado del server, hacerlo menos asqueroso (Dronkit).
+D.- agregar estado away (Dronkit).
+E.- agregar syn/ack para saber estado de clientes y server (Dronkit).
+F.- agregar certificados por cliente (Dronkit).
+10.- letra verde en incoming. (Wences/Kurt).
+11.- reconocer punto aparte, etc (Wences/Cono).
+12.- la ventana agranda el jtextarea cuando se agranda la ventana pero no la achica cuando se achica (Kurta).
+
+Changelog:8/9/2003
+-------------------
+0.- Initial release. - icsuda 0.1 Lunes 08/09/2003 01:25 a.m.
+1.- la ventana de la aplicacion trata de tomar focus si llega un mensaje nuevo (Dronkit).
+
+Changelog:9/9/2003: icsuda 0.2
+-------------------
+0.- alt+s para mandar mensajes (Wences/Kurta).
+1.- el server guarda los passwords encriptados. (Dronkit).
+2.- hora en mensaje (Kurta).
+3.- color de texto en blanco sobre negro. (Dronkit).
+4.- abre una ventana por contacto en lugar de un dialog (Dronkit).
+
+Changelog:10/9/2003: icsuda 0.3
+-------------------
+0.- se agrego todo.txt (Dronkit).
+1.- llegan mensajes de contactos en ventanas de chat de otros (Kurt/Wences). (metodo sendMessage -> synchronized).
+2.- que vuelva a focus el outgoing despues del send. (Quato).
+3.- hot keys en login prompt, 'o' y 'c'. (Dronkit).
+4.- ventana de chat toma focus en outgoing cuando se abre (Dronkit).
+5.- ventana de mensajes toma focus en outgoing por default (Dronkit).
+6.- que no corte la palabras (Wences/Kurt).
+7.- letra de texto en verde sobre negro (Dronkit).
+
+Changelog:11/9/2003: icsuda 0.4
+-------------------------------
+0.- ICSUDA TIENE 8 usuarios!! 
